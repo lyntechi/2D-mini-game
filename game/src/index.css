@@ -20,7 +20,7 @@ body {
 .game {
   border: 2px solid black;
   width: 1000px;
-  height: 620px;
+  height: 640px;
   background-image: url("https://i.gifer.com/SBKw.gif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,6 +100,18 @@ button {
   position: absolute;
   top: -155px;
   left: 160px;
+}
+.dog1 {
+  width: 235px;
+  position: absolute;
+  top: 105px;
+  left: -500px;
+}
+.dog2 {
+  width: 105px;
+  position: absolute;
+  top: 205px;
+  left: -220px;
 }
 @keyframes animateVictim {
   from {

@@ -39,7 +39,9 @@ export default function App() {
   return (
     <div className="app">
       {level === 7 ? (
-        <h1 style={{ color: "white", position: "relative", marginBottom: '20px'}}>
+        <h1
+          style={{ color: "white", position: "relative", marginBottom: "20px" }}
+        >
           Turn your speakers{" "}
           <FcSpeaker
             style={{ fontSize: "3rem", position: "relative", top: "10px" }}
@@ -113,6 +115,7 @@ export default function App() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
+              marginTop: "-270px",
             }}
           >
             <img
@@ -169,6 +172,16 @@ export default function App() {
                 justifyContent: "center",
               }}
             >
+              <img
+                src="https://media0.giphy.com/media/xUOwGbVaQ7QN361yCc/source.gif"
+                alt="running pug"
+                className="dog1"
+              />
+              <img
+                src="https://media.tenor.com/images/dcc0941f40c6cdb2d7006b44500d2335/tenor.gif"
+                alt="running pug"
+                className="dog2"
+              />
               <img
                 src="https://thumbs.gfycat.com/CoolHideousChuckwalla-max-1mb.gif"
                 alt="dancing banana"
