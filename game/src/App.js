@@ -39,7 +39,7 @@ export default function App() {
   return (
     <div className="app">
       {level === 7 ? (
-        <h1 style={{ color: "white", position: "relative" }}>
+        <h1 style={{ color: "white", position: "relative", marginBottom: '20px'}}>
           Turn your speakers{" "}
           <FcSpeaker
             style={{ fontSize: "3rem", position: "relative", top: "10px" }}
@@ -58,8 +58,8 @@ export default function App() {
             fontSize: "1.3rem",
           }}
         >
-          HELP! BATMAN HAS LOST HIS MIND. CLICK ON HIM TO MAKE HIM SMALLER,
-          REACH LEVEL{" "}
+          HELP! BATMAN HAS LOST HIS MIND. CLICK ON HIM TO MAKE HIM SMALLER, BEAT
+          LEVEL{" "}
           <span
             style={{
               fontSize: "1.6rem",
@@ -69,7 +69,7 @@ export default function App() {
               color: "white",
             }}
           >
-            7
+            6
           </span>{" "}
           TO MAKE HIM GO AWAY AND IN THE END YOU WILL BE REWARDED WITH A DANCE
           AND A SONG!
@@ -77,7 +77,11 @@ export default function App() {
       ) : (
         ""
       )}
-      <h1 style={{ color: "white", marginTop: "20px" }}>Level: {level}</h1>
+      {level < 7 ? (
+        <h1 style={{ color: "white", marginTop: "20px" }}>Level: {level}</h1>
+      ) : (
+        ""
+      )}
       <div className="game">
         {char.blockSecond === "none" ? (
           <div className="game-over" style={{ background: "grey" }}>
