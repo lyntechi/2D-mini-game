@@ -112,7 +112,7 @@ export default function App() {
             }}
           >
             <img
-              src="https://i.imgur.com/mfIdedF.png"
+              src="https://hrl.uncg.edu/wp-content/uploads/boom.png"
               alt="boom logo"
               className="boom"
             />{" "}
@@ -166,7 +166,7 @@ export default function App() {
               }}
             >
               <img
-                src="https://i.imgur.com/GzxubhX.gif"
+                src="https://thumbs.gfycat.com/CoolHideousChuckwalla-max-1mb.gif"
                 alt="dancing banana"
                 className="banana"
               />
