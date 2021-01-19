@@ -1,3 +1,5 @@
+<h1>Deployment</h1>
+<a href='https://batman-turned-bad.netlify.app/'>Visit Website</a>
 <h1>Build/run info</h1>
 <p>This project uses npm. Run "npm install" in the /game directory to install the NPM dependencies, then run "npm start" while still being in the /game directory.</p>
 <h1>Desktop</h1>
