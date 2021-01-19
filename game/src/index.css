@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Yusei Magic", sans-serif;
+}
+body {
+  background: black;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+}
+.game {
+  border: 2px solid black;
+  width: 1000px;
+  height: 620px;
+  background-image: url("https://i.gifer.com/SBKw.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.game-over {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.victim {
+  position: absolute;
+  animation: animateVictim 5s infinite;
+  cursor: pointer;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+}
+.villian {
+  position: absolute;
+  animation: animateVillian 4s infinite;
+  cursor: pointer;
+  left: 0;
+  bottom: 0;
+}
+h2 {
+  color: rgb(255, 255, 255);
+  margin: 10px 0px;
+  font-size: 2rem;
+}
+button {
+  padding: 10px;
+  width: 30%;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.boom {
+  width: 500px;
+}
+.zombie {
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+.banana {
+  width: 250px;
+}
+.mission-completed {
+  position: relative;
+}
+.girl-dancing {
+  position: absolute;
+  top: 140px;
+  width: 130px;
+  left: 220px;
+}
+.guy-dancing {
+  position: absolute;
+  top: 90px;
+  width: 380px;
+  left: -250px;
+}
+.mission-completed-heading {
+  position: relative;
+}
+.figure {
+  width: 155px;
+  position: absolute;
+  top: -155px;
+  left: 160px;
+}
+@keyframes animateVictim {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 110%;
+  }
+}
+@keyframes animateVillian {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 110%;
+  }
+}
